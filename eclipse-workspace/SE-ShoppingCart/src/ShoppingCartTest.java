@@ -13,6 +13,7 @@ class ShoppingCartTest {
 		Assert.assertEquals(0, cart.getNumberOfProducts());
 	}
 	@Test
+	
 	void AddSingleProduct() {
 		ShoppingCart cart = new ShoppingCart();
 		Product product = new Product ("Java Book", 1, 127.0);
