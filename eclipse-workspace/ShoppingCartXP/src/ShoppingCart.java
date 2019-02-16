@@ -4,6 +4,8 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+
 public class ShoppingCart {
 	private List<Product> myProducts = new ArrayList <>();
 	private double totalValue;
