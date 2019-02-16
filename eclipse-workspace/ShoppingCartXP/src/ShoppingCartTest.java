@@ -20,6 +20,7 @@ class ShoppingCartTest {
 		cart.addProduct(product);
 		Assert.assertEquals(1, cart.getNumberOfProducts());
 		Assert.assertEquals(127.0, cart.getTotalValue());
+		//end
 	}
    @Test
 	void AddOthers() {
