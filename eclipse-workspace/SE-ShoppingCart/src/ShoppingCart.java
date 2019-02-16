@@ -4,7 +4,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-//BB
+
 public class ShoppingCart {
 	private List<Product> myProducts = new ArrayList <>();
 	private double totalValue;
@@ -12,7 +12,7 @@ public class ShoppingCart {
 	public int getNumberOfProducts() {
 		return myProducts.size();
 		}
-	//
+	
 	
 	public double getTotalValue() {
 		// TODO Auto-generated method stub
