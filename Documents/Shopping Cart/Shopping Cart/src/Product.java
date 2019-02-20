@@ -10,6 +10,7 @@ public class Product {
 		this.quantity = quantity;
 		
 		this.totalPrice = totalPrice;
+		
 	}
  
 	public String getProductName() {
@@ -22,6 +23,7 @@ public class Product {
  
 	public int getQuantity() {
 		return quantity;
+	
 	}
  
 	public void setQuantity(int quantity) {
